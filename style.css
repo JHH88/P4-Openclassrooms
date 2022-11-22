@@ -7,6 +7,39 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+q {
+    font-size: large;
+    margin: 10px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+cite {
+    color: #bbb6b6;
+}
+
+#Contact .text-center {
+    color: #000000!important;
+}
+
+#bloc-7 h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+address {
+    display: flex;
+    text-align: center;
+    margin-top: 130px;
+    font-size: larger;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -676,10 +709,6 @@ a {
     margin: auto auto auto auto;
 }
 
-/* p {
-    font-size: 11px;
-} */
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -700,8 +729,8 @@ a {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    max-width: 300px;
+    margin: auto;
 }
 
 h2 {
@@ -819,10 +848,12 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    background-attachment: scroll;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation-min.jpg");
+    background-attachment: scroll;
 }
 
 @media (max-width: 1024px) {
@@ -848,7 +879,7 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -858,7 +889,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+} */
 
 @media (max-width: 991px) {
     .container {
@@ -873,8 +904,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -884,8 +915,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
 }
 
