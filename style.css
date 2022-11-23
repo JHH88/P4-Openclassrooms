@@ -848,12 +848,12 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere-min.jpg");
+    background-image: url("img/agence-la-panthere-min.webp");
     background-attachment: scroll;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-min.jpg");
+    background-image: url("img/image-de-presentation-min.webp");
     background-attachment: scroll;
 }
 
