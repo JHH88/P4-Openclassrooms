@@ -729,6 +729,7 @@ a {
 }
 
 .social {
+    padding: 10px;
     margin: auto;
     display: flex;
     justify-content: space-around;
