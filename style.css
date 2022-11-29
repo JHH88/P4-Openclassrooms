@@ -768,7 +768,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #1F1F1F!important;
 }
 
 .portfolio-thumb {
@@ -906,8 +906,8 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        /* padding-left: constant(safe-area-inset-left);
+    /*.bloc {
+        padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right); */
     }
     .bloc-group,
@@ -919,8 +919,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         /* padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right); */
-    }
+        padding-right: constant(safe-area-inset-right); 
+    }*/
 }
 
 @media (max-width: 767px) {
