@@ -23,6 +23,8 @@ cite {
 
 #Contact .text-center {
     color: #000000!important;
+    text-shadow: 1px 1px 1px white;
+    font-weight: 700;
 }
 
 #bloc-7 h2 {
@@ -338,6 +340,7 @@ a:hover {
 .navbar-brand img {
     max-height: 200px;
     width: 100%;
+    height: 55px;
     margin: 0 5px 0 0;
     display: inline;
 }
